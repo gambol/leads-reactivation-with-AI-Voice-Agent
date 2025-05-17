@@ -47,14 +47,14 @@ tool_config = {
 vapi_client = VapiAI()
 
 # Create a new tool with the above config
-output = vapi_client.create_tool(tool_config)
-print(output)
+# output = vapi_client.create_tool(tool_config)
+# print(output)
 
 # # Get the tool id, necessary for creating/updating assistant
-print(output["id"])
+# print(output["id"])
 
 
 # Update an existing tool with the above config
-# tool_id = "4befe734-cca9-44af-895a-8b2a0aa4f731"
+# tool_id = "b1e688dd-e6cc-48b5-bd3e-77e68bb74adb"
 # output = vapi_client.update_tool(tool_id, tool_config)
-print(output)
+# print(output)
