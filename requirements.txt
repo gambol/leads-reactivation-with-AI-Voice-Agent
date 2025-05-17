@@ -6,7 +6,10 @@ pyairtable
 google-api-python-client
 google-auth-oauthlib
 google-auth-httplib2
-python-dotenv
+python-dotenv>=1.0.0
 uvicorn
 gunicorn
 fastapi
+pydantic>=2.0.0
+typing-extensions>=4.0.0
+requests>=2.31.0

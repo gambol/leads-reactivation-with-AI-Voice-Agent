@@ -27,6 +27,7 @@ def analyze_call_transcript(lead_name, transcript):
     call_analysis = invoke_llm(
         system_prompt=CALL_ANALYSIS_PROMPT, 
         user_message=inputs,
+        model="deepseek-chat",
         response_format=CallAnalysisOutput,
         json_output=True
     )

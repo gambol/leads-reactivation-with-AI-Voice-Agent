@@ -17,8 +17,8 @@ assistant_config = {
         "language": "en"
     },
     "model": {
-        "provider": "openai",  # Model provider
-        "model": "gpt-4o",  # Model ID
+        "provider": "deep-seek",  # Changed to deepseek
+        "model": "deepseek-chat",  # DeepSeek model
         "toolIds": tool_ids_list,
         "messages": [
             {

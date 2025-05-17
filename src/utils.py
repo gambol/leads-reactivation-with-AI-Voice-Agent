@@ -31,7 +31,7 @@ def calculate_duration_in_minutes(started_at, ended_at) -> float:
 def invoke_llm(
     system_prompt, 
     user_message, 
-    model="gpt-4o-mini", 
+    model="deepseek-chat", 
     response_format=None, 
     json_output=False
 ):
